@@ -1,7 +1,7 @@
 //  Included packages needed for this application
 const fs = require('fs');
 const path = require('path');
-const generateMarkdown = require('./utils/generateMarkdown');
+const generateMarkdown = require('./generateMarkdown');
 const inquirer = require('inquirer');
 
 // Created an array of questions for user input
@@ -18,8 +18,18 @@ const questions = [
 },
 {
     type: 'input',
+    name: 'screenshot',
+    message: 'Please provide the relative path for the image you want to use as your screenshot.'
+},
+{
+    type: 'input',
+    name: 'link',
+    message: 'Please provide the live URL link to your deployed application'
+}
+{
+    type: 'input',
     name: 'usage',
-    message: 'What technologies did you use for this project?'
+    message: 'What technologies and languages did you use for this project?'
 },
 {
     type: 'checkbox',
@@ -35,17 +45,17 @@ const questions = [
 {
     type: 'input',
     name: 'test',
-    message: 'Please provide information on any tests that you may have encountered'
+    message: 'Please provide information on any tests that you may have encountered.'
 },
 {
     type: 'input',
-    name: 'github',
-    message: 'Please enter your Github Username'
+    name: 'creator',
+    message: 'Please enter your Github Username.'
 },
 {
     type: 'input',
     name: 'email',
-    message: 'Please enter your email address'
+    message: 'Please enter your email address.'
 }
 
 
