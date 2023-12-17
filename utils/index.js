@@ -23,11 +23,6 @@ const questions = [
 },
 {
     type: 'input',
-    name: 'link',
-    message: 'Please provide the live URL link to your deployed application'
-}
-{
-    type: 'input',
     name: 'usage',
     message: 'What technologies and languages did you use for this project?'
 },
@@ -35,7 +30,7 @@ const questions = [
     type: 'checkbox',
     name: 'license',
     message: 'What license is applicable to this project?',
-    choices: []
+    choices: [MIT, BSD, Copyleft, GPL]
 },
 {
     type: 'input',
@@ -54,24 +49,22 @@ const questions = [
 },
 {
     type: 'input',
+    name: 'link',
+    message: 'Please provide the live URL link to your deployed application.'
+},
+{
+    type: 'input',
     name: 'email',
     message: 'Please enter your email address.'
 }
 
-
-
-
-
-
-
-
 ];
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+// function writeToFile(fileName, data) {}
 
 // TODO: Create a function to initialize app
-function init() {}
+// function init() {}
 
 // Function call to initialize app
-init();
+// init();
