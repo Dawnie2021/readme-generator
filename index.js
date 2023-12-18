@@ -1,7 +1,7 @@
 //  Included packages needed for this application
 const fs = require('fs');
 const path = require('path');
-const generateMarkdown = require('./generateMarkdown');
+const generateMarkdown = require('./utils/generateMarkdown');
 const inquirer = require('inquirer');
 
 // Created an array of questions for user input
@@ -30,7 +30,7 @@ const questions = [
     type: 'checkbox',
     name: 'license',
     message: 'What license is applicable to this project?',
-    choices: [MIT, BSD, Copyleft, GPL]
+    choices: ['MIT', 'BSD', 'Copyleft', 'GPL']
 },
 {
     type: 'input',
@@ -61,10 +61,22 @@ const questions = [
 ];
 
 // TODO: Create a function to write README file
-// function writeToFile(fileName, data) {}
+function writeToFile(fileName, data) {
+    fs.writeFileSync(path.join(process.cwd(), fileName), data)
+}
 
 // TODO: Create a function to initialize app
-// function init() {}
+function init() {
+    inquirer
+    .prompt(questions)
+    .then(data => {
+       
+        writeToFile("tutor.md", generateMarkdown(data))
+    })
+}
 
 // Function call to initialize app
-// init();
+init();
+
+
+    
