@@ -19,6 +19,10 @@ function generateMarkdown(data) {
 -  ${data.link}
 ## ScreenShot
 -  ![alt-text](${data.screenshot})
+##  Table of Contents
+* [Languages & Technologies](#languagesandtechnologies)
+* [Contributors](#contributors)
+* [Testing](#testing)
 ## Languages & Technologies
 -  ${data.usage}
 ## Contributors

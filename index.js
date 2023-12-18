@@ -60,18 +60,17 @@ const questions = [
 
 ];
 
-// TODO: Create a function to write README file
+//  Created a function to write README file
 function writeToFile(fileName, data) {
     fs.writeFileSync(path.join(process.cwd(), fileName), data)
 }
 
-// TODO: Create a function to initialize app
+//  Created a function to initialize app
 function init() {
     inquirer
     .prompt(questions)
     .then(data => {
-       
-        writeToFile("tutor.md", generateMarkdown(data))
+    writeToFile("tutor.md", generateMarkdown(data))
     })
 }
 
