@@ -6,7 +6,7 @@
 ## ScreenShot
 -  ![alt-text](dsss)
 ##  Table of Contents
-* [Installation](#installation)
+* [Description](#description)
 * [Contributors](#contributors)
 * [License](#license)
 * [Testing](#testing)
