@@ -1,28 +1,29 @@
-// TODO: Create a function that returns a license badge based on which license is passed in
-// If there is no license, return an empty string
-// function renderLicenseBadge(license) { 
-  
-function renderLicenseBadge(license) {
+//  Created a function that returns a license badge based on which license is passed in
+  function renderLicenseBadge(license) {
   if (license !== "none") {
-    return `![Github license](https://img.shields.io/badge/license-${license}-blue)`;
+    return `[![Github license](https://img.shields.io/badge/license-${license}-blue.svg)]`;
   }
   return "";
 }
-  
-  
+  //  Created a function that returns the license link
 
-// TODO: Create a function that returns the license link
-// If there is no license, return an empty string
-function renderLicenseLink(license) { }
+function renderLicenseLink(license) {
+  if (license!== "none") {
+    return `(https://opensource.org/licenses/${license})`
+  }
+  return "";
+ }
 
-// TODO: Create a function that returns the license section of README
-// If there is no license, return an empty string
-function renderLicenseSection(license) { }
+//  Created a function that returns the license section of README
 
-// TODO: Create a function to generate markdown for README
+function renderLicenseSection(license) {
+  return `${renderLicenseBadge(license)}${renderLicenseLink(license)}`
+ }
+
+//  Created a function to generate markdown for README
 function generateMarkdown(data) {
   return `# ${data.title}
-  ${renderLicenseBadge(data.license)}
+${renderLicenseSection(data.license)}
 ## Description
 -  ${data.description}
 ## Live URL for Deployed Application
@@ -44,8 +45,8 @@ function generateMarkdown(data) {
 ## Testing
 -  ${data.test}  
 ##  Questions
--  ${data.creator}
--  ${data.email}
+-  You can reach me via GitHub: ${data.creator}
+-  You can reach me via email at: ${data.email}
 `;
 }
 

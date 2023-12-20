@@ -23,7 +23,7 @@ const questions = [
 },
 {
     type: 'input',
-    name: 'usage',
+    name: 'installation',
     message: 'What technologies and languages did you use for this project?',
 },
 {
@@ -60,7 +60,7 @@ const questions = [
 
 ];
 
-//  Created a function to write README file
+//  Created a function to write README file (tutor helped me with this)
 function writeToFile(fileName, data) {
     fs.writeFileSync(path.join(process.cwd(), fileName), data)
 }
@@ -70,7 +70,7 @@ function init() {
     inquirer
     .prompt(questions)
     .then(data => {
-    writeToFile("README2.md", generateMarkdown(data))
+    writeToFile("README4.md", generateMarkdown(data))
     })
 }
 
