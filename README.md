@@ -5,3 +5,5 @@ This is a simple README generator that creates a professional README through the
 
 ## Screen Shot
 ![Alt text](img/Desktop-screenshot.png)
+![Alt text](img/screenshot2.png)
+![Alt text](img/Desktop-screenshot3.png)
