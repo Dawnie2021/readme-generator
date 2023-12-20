@@ -30,7 +30,7 @@ const questions = [
     type: 'checkbox',
     name: 'license',
     message: 'What license is applicable to this project?',
-    choices: ['MIT', 'BSD', 'Copyleft', 'GPL', 'None'],
+    choices: ['MIT', 'BSD', 'None'],
 },
 {
     type: 'input',

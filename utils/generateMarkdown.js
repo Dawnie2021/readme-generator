@@ -37,16 +37,16 @@ ${renderLicenseSection(data.license)}
 * [Testing](#testing)
 * [Questions](#questions)
 ## Languages & Technologies
--  ${data.usage}
+-  ${data.installation}
 ##  License
 -  ${data.license}
 ## Contributors
--  ${data.contributors}
+-  ${data.contributers}
 ## Testing
 -  ${data.test}  
 ##  Questions
--  You can reach me via GitHub: ${data.creator}
--  You can reach me via email at: ${data.email}
+-  You can reach me with questions via GitHub at: ${data.creator}
+-  You can reach me with questions via email at: ${data.email}
 `;
 }
 

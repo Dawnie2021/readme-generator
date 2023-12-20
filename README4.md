@@ -1,11 +1,11 @@
 # readme
-[![Github license](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+[![Github license](https://img.shields.io/badge/license-None-blue.svg)](https://opensource.org/licenses/None)
 ## Description
 -  challenge
 ## Live URL for Deployed Application
--  sdsd
+-  fkdfjd
 ## ScreenShot
--  ![alt-text](dadsd)
+-  ![alt-text](skdsdj)
 ##  Table of Contents
 * [Installation](#installation)
 * [Contributors](#contributors)
@@ -13,13 +13,13 @@
 * [Testing](#testing)
 * [Questions](#questions)
 ## Languages & Technologies
--  undefined
+-  djkdjsk
 ##  License
--  MIT
+-  None
 ## Contributors
--  undefined
+-  fldfdlf
 ## Testing
--  sdsds  
+-  fkdfjksdf  
 ##  Questions
--  sdsd
--  sdsd
+-  You can reach me with questions via GitHub at: fkdfjdfj
+-  You can reach me with questions via email at: dfjdfd
