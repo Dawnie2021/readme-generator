@@ -27,7 +27,7 @@ ${renderLicenseSection(data.license)}
 ## Description
 -  ${data.description}
 ## Live URL for Deployed Application
--  ${data.link}
+-  [Live URl](https://${data.link})
 ## ScreenShot
 -  ![alt-text](${data.screenshot})
 ##  Table of Contents
@@ -45,8 +45,8 @@ ${renderLicenseSection(data.license)}
 ## Testing
 -  ${data.test}  
 ##  Questions
--  You can reach me with questions via GitHub at: ${data.creator}
--  You can reach me with questions via email at: ${data.email}
+-  You can reach me with questions at: [Github](https://${data.creator})
+-  You can reach me with questions at: [Email](${data.email})
 `;
 }
 

@@ -3,9 +3,9 @@
 ## Description
 -  To create a simple README generator using the command line application
 ## Live URL for Deployed Application
--  dawnie2021.github/io/portfolio
+-  [Live URl](https://https://dawnie2021.github.io/Portfolio/)
 ## ScreenShot
--  ![alt-text]()
+-  ![alt-text](C:\Users\dawnn\Bootcamp\challenges\readme-generator\img\Desktop-screenshot.png)
 ##  Table of Contents
 * [Installation](#installation)
 * [Contributors](#contributors)
@@ -21,5 +21,5 @@
 ## Testing
 -  N/A  
 ##  Questions
--  You can reach me with questions via GitHub at: github.com/dawnie2021
--  You can reach me with questions via email at: DawnNguyen2021@gmail.com
+-  You can reach me with questions at: [Github](https://github.com/dawnie2021)
+-  You can reach me with questions at: [Email](Dawnnguyen2021@gmail.com)
