@@ -28,8 +28,6 @@ ${renderLicenseSection(data.license)}
 -  ${data.description}
 ## Live URL for Deployed Application
 -  [Live URl](https://${data.link})
-## ScreenShot
--  ![alt-text](${data.screenshot})
 ##  Table of Contents
 * [Installation](#installation)
 * [Contributors](#contributors)

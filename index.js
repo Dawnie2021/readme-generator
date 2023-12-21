@@ -16,11 +16,7 @@ const questions = [
     name: "description",
     message: 'What is the purpose of this project?',
 },
-{
-    type: 'input',
-    name: 'screenshot',
-    message: 'Please provide the relative path for the image you want to use as your screenshot.',
-},
+
 {
     type: 'input',
     name: 'installation',
@@ -70,7 +66,7 @@ function init() {
     inquirer
     .prompt(questions)
     .then(data => {
-    writeToFile("Sample3README.md", generateMarkdown(data))
+    writeToFile("SampleREADME.md", generateMarkdown(data))
     })
 }
 

@@ -1,11 +1,9 @@
 # README Generator
 [![Github license](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 ## Description
--  To create a simple README generator using the command line application
+-  To create a simple README generator using the command line application.
 ## Live URL for Deployed Application
 -  [Live URl](https://https://dawnie2021.github.io/Portfolio/)
-## ScreenShot
--  ![alt-text](C:\Users\dawnn\Bootcamp\challenges\readme-generator\img\Desktop-screenshot.png)
 ##  Table of Contents
 * [Installation](#installation)
 * [Contributors](#contributors)
