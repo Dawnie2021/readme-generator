@@ -1,24 +1,24 @@
 //  Created a function that returns a license badge based on which license is passed in
-  function renderLicenseBadge(license) {
+function renderLicenseBadge(license) {
   if (license !== "none") {
     return `[![Github license](https://img.shields.io/badge/license-${license}-blue.svg)]`;
   }
   return "";
 }
-  //  Created a function that returns the license link
+//  Created a function that returns the license link
 
 function renderLicenseLink(license) {
-  if (license!== "none") {
+  if (license !== "none") {
     return `(https://opensource.org/licenses/${license})`
   }
   return "";
- }
+}
 
 //  Created a function that returns the license section of README
 
 function renderLicenseSection(license) {
   return `${renderLicenseBadge(license)}${renderLicenseLink(license)}`
- }
+}
 
 //  Created a function to generate markdown for README
 function generateMarkdown(data) {
